@@ -73,7 +73,7 @@ header {
    body {position: relative; }
 
    .imagem_background {height: 100vh;
-background-image: url(/Crespos/Imagens/cabeludo.png) ;
+background-image: url(/Imagens/cabeludo.png) ;
 background-size: cover;
 background-position: center;
 display: flex;
