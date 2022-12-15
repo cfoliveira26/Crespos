@@ -1,0 +1,294 @@
+*{ margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+color:#9767a9}
+
+h2 {color: #FFFFFF;}
+p {color: #FFFFFF;}
+
+header {
+    background-color: #FFFFFF;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+    
+ }
+
+ .logomarca { 
+    margin-left: 4rem ;
+    margin-right: 4rem;
+   
+
+ }
+
+ .link_navegacao {
+    height: 15vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  }
+
+  .space_link_navegacao {
+    padding: 15px;
+   }
+
+   .space_link_navegacao:hover {
+      font-weight: bolder ;
+      }
+
+   .caixa_pesquisa {
+    width: 10rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem ;
+    border: solid 2px;
+  border-radius: 10px 10px 10px 10px;
+    }
+
+    #caixa_pesquisa {border:none;
+   outline: 0;}
+
+   .link_redes {
+    display: flex;
+    margin-right: 4rem;
+    margin-left: 1rem;
+    
+    }
+
+    .space_link_redes {padding: 5px; }
+
+    .tam_icones {width: 2rem;
+   height: 2rem; }
+
+   body {position: relative; }
+
+   .imagem_background {height: 100vh;
+background-image: url(/Crespos/Imagens/cabeludo.png) ;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;}
+
+.h2_1 {width: 30vw;
+   position: relative;
+   top: 10vh;
+   right: 30vh;
+   font-size: 90px;
+   font-family: 'Playfair Display', serif;
+   font-weight: bolder;
+   text-align: center;
+color: #FFFFFF;}
+
+.h2_2 { width: 30vw;
+   position: relative;
+   top: 10vh;
+   left: 15vh;
+   font-size: 32px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: lighter;
+   text-align: center;
+   color: #FFFFFF; }
+
+   .background_color {
+      height: 50vh;
+      background-color: #9767a9;
+      display: flex;
+    }
+
+    .h2_3 {color: #FFFFFF; 
+width: 60vw;
+font-family: 'Playfair Display', serif;
+font-size: 50px;
+font-weight: bolder;
+text-align: right;
+padding-top: 5vh;
+padding-left: 5vw;}
+
+    .h2_4 {color: #FFFFFF;
+   font-size: 20px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: lighter;
+   padding-top: 5vh;
+   padding-left: 2vw;
+width: 35vw; }
+
+.section_img
+{display: flex;   }
+
+
+.div_img_1 {
+   width: 50vw;
+   display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+position: relative;
+bottom: 5vh;
+margin: 1vw;}
+
+.div_img_2 { 
+   width: 50vw;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start
+;
+}
+
+.img_size {width: 500px;
+   height: 400px; }
+
+.figure_caption {width: 30vw;
+height: 40vh; }
+
+figcaption {position: relative; 
+left: 2vw;
+bottom: 15vh;
+background-color: #9767a9;
+}
+
+.position_img_caminho {
+   height: 8vh;
+   width: 30vw;
+   position: relative;
+   top: 10vh;
+   left: 8vw;
+ }
+
+ .titulo_fig {
+   font-family: 'Playfair Display', serif;
+   font-size: 30px;
+   position: relative;
+left: 1vw;
+margin: 2vh;
+  }
+
+  .text_fig {font-family: 'Montserrat', sans-serif;
+text-align: left;
+position: relative;
+width: 25vw ;
+font-size: 12px;
+left: 1vw; }
+
+.section_final {display: flex;
+   justify-content: center;
+   align-items: center;
+height: 120vh;
+width: 80vw;
+position: relative;
+left: 10vw;}
+
+.tam_imgfinal1 {width: 20vw;
+height: 60vh;}
+.tam_imgfinal2 {width: 20vw;
+height: 25vh;}
+
+
+.tam_imgfinal3 {width: 12vw;
+height: 28vh;}
+.tam_imgfinal4 {width: 12vw;
+   height: 28vh;}
+.tam_imgfinal5 {width: 12vw;
+   height: 28vh;}
+
+.tam_imgfinal6 {width: 15vw;
+height: 60vh;}
+.tam_imgfinal7 {width: 15vw;
+height: 25vh ;}
+
+.tam_imgfinal8 {width: 15vw;
+height: 85vh;}
+
+
+.tam_imgfinal9 {width: 15vw;
+height: 25vh;}
+.tam_imgfinal10 {width: 15vw;
+height: 60vh ;}
+
+
+
+.div_final { padding: 5px; }
+
+
+
+
+
+footer {
+   height: 15vh;
+   background-color: #9767a9;
+   display: flex;
+   align-items: center;
+ }
+
+ .p_footer {font-family: 'Montserrat', sans-serif;
+width: 70vw; 
+position: relative;
+left: 5vw;}
+
+.section_setas { display: flex;
+justify-content: center;
+align-items: center;}
+
+.div_nav_final {
+display: flex;
+width: 7vw;
+height: 8vh;
+margin: 10px;
+font-family: 'Montserrat', sans-serif;
+font-size: 12px; }
+
+
+.pag_anterior {padding-left: 10px; }
+.seta_cima {padding-left: 10px; }
+.prox_pagina {padding-left: 10px; }
+
+.setas {
+height: 5vh; }
+
+@media(max-width:844px) and (min-width:390px)
+{.section_img { display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ } 
+
+ .img_size {width: 100px;
+   height: 150px; } 
+
+
+
+}
+
+ 
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
